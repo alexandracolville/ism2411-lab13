@@ -1,3 +1,7 @@
+# 1. A boolean filter tests every row against a condition and returns True or False, keeping only the rows where the condition is True.
+# 2. df["revenue"] returns a 1D pandas Series, while df[["revenue"]] returns a 2D pandas DataFrame. The distinction matters when adding columns or performing operations expecting specific data structures.
+# 3. Pandas can effortlessly process millions of rows of data in seconds without crashing or slowing down like Excel often does.
+
 import pandas as pd
 
 # Exercise 1
